@@ -74,7 +74,7 @@ VALUES
 
 CREATE TABLE SpotifyClone.musicas(
 	id INT PRIMARY KEY AUTO_INCREMENT,
-  name_musica VARCHAR(40) NOT NULL,
+  nome_musica VARCHAR(40) NOT NULL,
   tamanho_musica INT NOT NULL,
   album_id INT NOT NULL,
   artista_id INT NOT NULL,
@@ -82,7 +82,7 @@ CREATE TABLE SpotifyClone.musicas(
   FOREIGN KEY (artista_id) REFERENCES artistas (id)
 ) engine = innodb;
 
-INSERT INTO SpotifyClone.musicas (name_musica, tamanho_musica, album_id, artista_id)
+INSERT INTO SpotifyClone.musicas (nome_musica, tamanho_musica, album_id, artista_id)
 VALUES
   ("Baby", 136, 1, 1),
   ("Celebration Of More", 146, 7, 3),
