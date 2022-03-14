@@ -10,7 +10,7 @@ CREATE TABLE SpotifyClone.planos(
 
 INSERT INTO SpotifyClone.planos (nome_plano, preco_plano)
 VALUES
-  ("gratuito", 0.00),
+  ("gratuito", 0),
   ("universitário", 5.99),
   ("pessoal", 6.99),
   ("familiar", 7.99);
