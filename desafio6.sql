@@ -1,5 +1,5 @@
 SELECT
-  ROUND(MIN(planos.preco_plano), 3) AS faturamento_minimo,
+  MIN(planos.preco_plano) AS faturamento_minimo,
   ROUND(MAX(planos.preco_plano), 2) AS faturamento_maximo,
   ROUND(AVG(planos.preco_plano), 2) AS faturamento_medio,
   ROUND(SUM(planos.preco_plano), 2) AS faturamento_total
