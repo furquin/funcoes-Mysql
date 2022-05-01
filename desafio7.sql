@@ -1,3 +1,5 @@
+--* Requisito: Exiba tres colunas artistas contendo o nome do artista, album contento nome do album e seguidores contendo a quantidade de seguidores 
+
 SELECT
   artistas.nome_artista AS artista,
   albuns.nome_album AS album,

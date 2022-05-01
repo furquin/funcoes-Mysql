@@ -1,3 +1,5 @@
+--* Requisito: Exiba tres colunas usuario contendo o nome do usuario, qtde_musicas_ouvidas contendo a quantidade de musicas ouvidas e total_minutos contendo o quantidade de minutos ouvidos em ordem alfabética
+
 SELECT
   usuarios.nome_usuario AS usuario,
   COUNT(historico_reproducoes.usuario_id) AS qtde_musicas_ouvidas,

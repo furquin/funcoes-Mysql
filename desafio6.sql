@@ -1,3 +1,5 @@
+--* Requisito: Exiba quatro colunas faturamento_minimo, faturamento_maximo, faturamento_medio e faturamento_total mostrando os dados  financeiros de acordo com o plano dos usuario
+
 SELECT
   MIN(planos.preco_plano) AS faturamento_minimo,
   ROUND(MAX(planos.preco_plano), 2) AS faturamento_maximo,

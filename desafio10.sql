@@ -1,3 +1,5 @@
+--* Requisito: Exiba duas colunas nome contendo o nome da musica e reproducoes contendo a quantidade de vezes que usuarios reproduziram ela
+
 SELECT 
   musicas.nome_musica  AS 'nome',
   COUNT(musicas.id) AS 'reproducoes'

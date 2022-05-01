@@ -1,3 +1,5 @@
+--* Requisito: Exiba duas colunas usuario contendo o nome do usuario e condicao_usuario contendo o estado atual do usuario (ativo ou inativo) em ordem alfabética
+
 SELECT
     usuarios.nome_usuario AS 'usuario',
     IF(

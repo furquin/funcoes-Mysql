@@ -1,3 +1,5 @@
+--* Requisito: Exiba duas colunas nome_musica contendo o atual nome da musica e novo_nome onde novo_nome será a troca de palavras, Trocar a palavra "Streets" no final do nome de uma música por "Code Review", Trocar a palavra "Her Own" no final do nome de uma música por "Trybe", Trocar a palavra "Inner Fire" no final do nome de uma música por "Project", Trocar a palavra "Silly" no final do nome de uma música por "Nice", Trocar a palavra "Circus" no final do nome de uma música por "Pull Request".
+
 SELECT 
   nome_musica,
   REPLACE(

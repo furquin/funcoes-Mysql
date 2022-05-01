@@ -1,3 +1,6 @@
+--* Requisito: Crie um banco com o nome de SpotifyClone, providencie as queries necessárias para criar tabelas normalizadas, providencie as queries necessárias para popular as tabelas
+ 
+
 DROP DATABASE IF EXISTS SpotifyClone;
 
 CREATE DATABASE SpotifyClone;
