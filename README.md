@@ -1,5 +1,5 @@
 <div align="center"> 
-    <img width="300px" height="60px" align="center"src="./README/MySql.png">
+    <img width="920px" height="500px" align="center"src="./README/MySql.png">
 </div>
 
 <br>
